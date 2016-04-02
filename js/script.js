@@ -18,12 +18,12 @@ $("#menu-toggle").click(function(e) {
     $("#wrapper").toggleClass("toggled");
 });
 
-$("#menu-toggle").click(function(e) {
-  $(".btn").attr("id", "arrow")
-});
-
-// $("#menu-toggle").click(function() {
-//     $(".btn").toggleClass("src", "../images/arrow-02.png");
-//     console.log('.btn');
+// $("#menu-toggle").click(function(e) {
+//   $(".btn").attr("class", "arrow")
 // });
+
+$("#menu-toggle").click(function() {
+    $(".btn").toggleClass("arrow");
+    console.log('.btn');
+});
 
