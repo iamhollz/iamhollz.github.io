@@ -1,0 +1,108 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+#container{
+	margin-left: 20px;
+}
+#rightBox .container-fluid {
+    padding: 0 !important; 
+}
+.part1 {
+	background-color: #fff;
+	height: 200px;
+	width: 100%;
+}
+.part2 {
+	background-color: #fff;
+	height: 500px;
+	font-size: 20px;
+	background-image: url("../images/hp.jpg");
+	background-size: 400px 400px;
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 100%;
+	margin: 10px;
+}
+.part3 {
+	height: 500px;
+	width: 100%;
+}
+.btn{
+	border: none;
+	/*background-color: none !important;*/
+	background-image: url("../images/arrow-01.png");
+	height: 30px;
+	width: 43px;
+	border-radius: 0px;
+	float: left;
+}
+#arrow{
+	background-image: url("../images/arrow-02.png");
+}
+.btn-default{
+/*	padding-top: 10px;*/
+	background-color: none;
+}
+.btn:focus{
+	outline: none;
+}
+/*.btn.btn-default{
+	display: none !important;
+  }*/
+
+#sidebar-wrapper{
+  	background-color: white;
+  	font-weight: 300;
+  }
+ p{
+  	text-align: left;
+/*  	padding-left: 20px;*/
+  	font-size: 40px;
+  	font-weight: 100;
+  }
+#bio{
+  	font-size: 20px;
+  	padding-left: 510px;
+/*  	margin: 10px;*/
+  }
+#intro{
+	font-weight: 100;
+	font-size: 72px;
+	text-align: center;
+	line-height: 200px;
+}
+a{
+  	color: black;
+  }
+ .img-holder{
+ 	width: 100%;
+ 	height: auto;
+ }
+ .stats{
+ 	padding-left: 500px;
+ }
+ img{
+ 	vertical-align: top;
+ }
+ input{
+ 	width: 220px;
+ 	margin-top: 50px;
+ }
+ ul{
+ 	text-align: left;
+ }
+ li{
+ 	list-style: none;
+ 	padding: 10px;
+ 	font-weight: 100;
+ }
+ .stats{
+ 	padding-top: 40px;
+ }
+
+
+/*@media only screen and (min-width: 200px){
+	.btn.btn-default{
+		float: right !important;
+	}
+}*/
